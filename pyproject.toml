@@ -33,5 +33,6 @@ dependencies = [
     "rispy>=0.10.0",
     "sentence-transformers>=5.1.2",
     "six>=1.17.0",
-    "transformers<=4.48.3",
+    "striprtf>=0.0.29",
+    "transformers<=4.53.0",
 ]
