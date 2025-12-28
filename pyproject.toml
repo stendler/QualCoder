@@ -1,0 +1,37 @@
+[project]
+name = "QualCoder"
+version = "3.7.0"
+description = "Qualitative data analysis for text, images, audio, video. Cross platform."
+requires-python = "<3.13,>=3.10"
+readme = "README.md"
+dependencies = [
+    "bio>=1.8.1",
+    "chardet>=5.2.0",
+    "diff-match-patch>=20241021",
+    "ebooklib>=0.20",
+    "faiss-cpu>=1.13.0",
+    "json-repair>=0.54.2",
+    "langchain>=0.2.8",
+    "langchain-community>=0.2.7",
+    "langchain-core>=0.2.19",
+    "langchain-openai>=0.1.16",
+    "langchain-text-splitters>=0.2.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "pdfminer-six>=20251107",
+    "pefile<2024.8.26",
+    "pillow>=12.0.0",
+    "plotly>=6.5.0",
+    "ply>=3.11",
+    "pyinstaller<=6.4.0",
+    "pymupdf>=1.26.6",
+    "pyqt6>=6.5",
+    "python-vlc>=3.0.21203",
+    "pyyaml>=6.0.3",
+    "qtawesome>=1.4.0",
+    "requests>=2.32.5",
+    "rispy>=0.10.0",
+    "sentence-transformers>=5.1.2",
+    "six>=1.17.0",
+    "transformers<=4.48.3",
+]
